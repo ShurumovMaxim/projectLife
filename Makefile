@@ -1,5 +1,5 @@
 
-trpolab: test.o main.o bibl.o
+trpolab: test.o main.o bibl.o main2.o
 	gcc -o trpolab  test.o main.o bibl.o -lm
 	gcc -lm -o test test.o main2.o bibl.o 
 	-./test
