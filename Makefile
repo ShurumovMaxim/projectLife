@@ -16,3 +16,5 @@ bibl.o: bibl.c bibl.h
 
 main2.o: main2.c
 	gcc -c main2.c
+clean:
+	rm *.o
