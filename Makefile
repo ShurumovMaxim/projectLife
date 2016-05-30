@@ -1,3 +1,4 @@
+complete: clean trpolab test
 
 trpolab: test.o main.o bibl.o
 	gcc -o trpolab  test.o main.o bibl.o -lm
