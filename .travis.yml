@@ -1,5 +1,5 @@
 language: c
 script: 
-- make test 
 - make
+- make test 
 - make clean
