@@ -13,7 +13,7 @@ test.o: test.c bibl.h
 	gcc -c test.c
 
 bibl.o: bibl.c bibl.h
-	gcc -c bibl.c
+	gcc -lm -c bibl.c
 
 main2.o: main2.c
 	gcc -c main2.c
