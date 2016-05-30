@@ -17,7 +17,7 @@ int main()
     printf ("vvedite b: "); scanf("%f", &b);
     printf("vvedite c: "); scanf("%f", &c);
     func1(a, b, c);
-    return 0;
+    return 1;
     
 }
 
